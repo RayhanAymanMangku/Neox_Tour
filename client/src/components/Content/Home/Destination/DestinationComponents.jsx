@@ -51,11 +51,11 @@ const GalleryDestinations = () => {
         },
         {
             id: 4,
-            category: 'Beach/Island',
+            category: 'Island',
             title: 'Padar Island, Labuan Bajo',
             description: '',
             buttonText: '',
-            imgSrc: '/assets/Items/pinkbeach.jpg',
+            imgSrc: '/assets/Items/padar.jpg',
             imgAlt: 'sleep',
             size: 'md:h-32 md:w-80',
         },
@@ -89,7 +89,7 @@ const GalleryDestinations = () => {
                     </div>
                     <div className="flex">
                         <div className="md:ml-20 w-full">
-                            <h1 className="text-3xl font-light mb-4">Heading</h1>
+                            <h1 className="text-3xl font-light mb-4">Contact Us</h1>
                             <FormComponent />
                         </div>
                     </div>
