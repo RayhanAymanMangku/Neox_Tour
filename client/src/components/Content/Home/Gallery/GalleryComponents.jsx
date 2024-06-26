@@ -1,5 +1,8 @@
 import React from 'react';
 import GalleryDestinations from '../Destination/DestinationComponents';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import BookOnlineIcon from '@mui/icons-material/BookOnline';
+import PaymentIcon from '@mui/icons-material/Payment';
 
 const GalleryComponents = () => {
     const images = [
@@ -66,6 +69,41 @@ const GalleryComponents = () => {
             <section>
                 <GalleryDestinations />
             </section>
+            <section>
+                <div className="w-full h-fit px-24 mt-10">
+                    <div className='w-[50%]'>
+                        <h1 className="text-3xl font-light">Simple Steps</h1>
+                        <p className="text-gray-600 mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit accusantium maxime magnam facilis? Cum quo consequuntur earum nesciunt consequatur harum sit aliquam aut unde?
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-3 items-baseline mx-auto h-fit mt-8">
+
+                        <div className="w-full h-60 rounded-t-3xl bg-gray-100 flex flex-col justify-center items-center">
+                            <div className='w-12 h-12 rounded-full bg-white flex justify-center items-center mb-2'>
+                                <LocationOnIcon className='text-[#0ea5e9]' />
+                            </div>
+                            <h3 className='text-3xl font-light text-black'>Find Your Trip</h3>
+                        </div>
+                        <div className="w-full h-60 rounded-t-3xl bg-[#0ea5e9] flex flex-col justify-center items-center">
+                            <div className='w-12 h-12 rounded-full bg-white flex justify-center items-center mb-2'>
+                                <BookOnlineIcon className='text-[#0ea5e9]' />
+                            </div>
+                            <h3 className='text-3xl font-light text-white'>Book A Ticket</h3>
+                        </div>
+                        <div className="w-full h-60 rounded-t-3xl bg-gray-100 flex flex-col justify-center items-center">
+                            <div className='w-12 h-12 rounded-full bg-white flex justify-center items-center mb-2'>
+                                <PaymentIcon className='text-[#0ea5e9]' />
+                            </div>
+                            <h3 className='text-3xl font-light text-black'>Pay & Start Trip</h3>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+
         </>
     );
 };
