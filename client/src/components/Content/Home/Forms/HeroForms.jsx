@@ -73,7 +73,7 @@ const FormComponent = () => {
 
             <button
                 type="submit"
-                className="text-white bg-[#0ea5e9] focus:ring-2 focus:outline-none font-light rounded-lg w-full sm:w-auto px-4 py-2 text-center transition-all duration-300 hover:bg-white hover:text-[#0ea5e9] hover:shadow-md"
+                className="text-white bg-[#0ea5e9] focus:ring-2 focus:outline-none font-light rounded-3xl w-full sm:w-auto px-4 py-2 text-center transition-all duration-300 hover:bg-white hover:text-[#0ea5e9] hover:shadow-md"
             >
                 Submit
             </button>
