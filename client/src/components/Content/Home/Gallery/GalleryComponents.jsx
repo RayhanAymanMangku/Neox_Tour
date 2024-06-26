@@ -46,7 +46,7 @@ const GalleryComponents = () => {
                 </div>
             </section>
             <section>
-                <div className="w-full h-fit px-24 mt-10">
+                <div className="w-full h-fit px-24 mt-10" id='topDestination'>
                     <div className="grid grid-cols-2">
                         <div>
                             <h1 className="text-3xl font-light">Top Destinations</h1>

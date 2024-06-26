@@ -49,7 +49,11 @@ export const NavbarSticky = () => {
             <NavList />
           </div>
           <div className="hidden lg:flex items-center gap-2">
-            <button className="px-4 py-2 bg-[#0ea5e9] hover:bg-white transition-all duration-300 hover:text-[#0ea5e9] rounded-full text-white font-extralight hover:shadow-md">Get Started</button>
+            <button className="px-4 py-2 bg-[#0ea5e9] hover:bg-white transition-all duration-300 hover:text-[#0ea5e9] rounded-full text-white font-extralight hover:shadow-md" >
+              <a href="#topDestination">
+                Get Started
+              </a>
+            </button>
             <button className="px-2 py-2 bg-[#0ea5e9] hover:bg-white transition-all duration-300 rounded-full hover:shadow-md">
               <ArrowForwardIcon className="text-white hover:text-[#0ea5e9] transition-all duration-300" />
             </button>
@@ -92,10 +96,13 @@ export const NavbarSticky = () => {
             )}
           </IconButton>
         </div>
+
         <MobileNav open={openNav}>
           <NavList />
           <div className="flex flex-col gap-2 mt-4">
-            <button className="px-4 py-2 bg-[#0ea5e9] rounded-full text-white font-extralight hover:shadow-md">Get Started</button>
+            <button className="px-4 py-2 bg-[#0ea5e9] rounded-full text-white font-extralight hover:shadow-md">
+              <a href="#topDestination">Get Started</a>
+            </button>
             <button className="px-2 py-2 bg-[#0ea5e9] rounded-full hover:shadow-md">
               <ArrowForwardIcon className="text-white" />
             </button>
