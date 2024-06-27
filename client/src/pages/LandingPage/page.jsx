@@ -3,7 +3,7 @@ import { NavbarSticky } from "../../layouts/Navbar/NavbarComponent";
 import MainContentHome from "../../components/Content/Home";
 import { FooterComponents } from "../../layouts/Footer/FooterComponent";
 
-export const Home = () => {
+export const HomePage = () => {
   return (
     <div>
       <NavbarSticky />
@@ -13,4 +13,4 @@ export const Home = () => {
   )
 };
 
-export default Home;
+export default HomePage;
