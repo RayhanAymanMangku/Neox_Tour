@@ -20,7 +20,7 @@ const currentYear = new Date().getFullYear();
 export function FooterComponents() {
     return (
         <footer className="relative w-full bg-white mt-8">
-            <div className="mx-auto w-full lg:px-24">
+            <div className="mx-auto w-full px-8 lg:px-24">
                 <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
                     <img src="/assets/Logo/Neox.png" alt="" className="w-36 h-12" />
                     <div className="grid grid-cols-3 justify-between gap-4">
