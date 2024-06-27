@@ -42,7 +42,7 @@ export const NavbarSticky = () => {
 
   return (
     <div className="sticky top-0 z-10 w-full items-center">
-      <Navbar className="shadow-none lg:px-24 lg:py-4 mx-auto max-w-full">
+      <Navbar className="shadow-none lg:px-24 lg:py-4 mx-auto max-w-full border-none">
         <div className="flex items-center justify-between w-full">
           <img src="/assets/Logo/Neox.png" className="w-36 h-12" alt="logo" />
           <div className="hidden lg:flex flex-grow items-center justify-center">
@@ -60,7 +60,7 @@ export const NavbarSticky = () => {
           </div>
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="ml-auto h-8 w-8 text-inherit hover:bg-transparent text-gray-600 focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
