@@ -1,0 +1,205 @@
+{
+    "trips": [
+      {
+        "id": 1,
+        "nama": "Liburan Akhir Pekan ke Bandung",
+        "lokasi": "Bandung, Jawa Barat",
+        "deskripsi": "A relaxing weekend trip to explore the cool highlands and vibrant culinary scene of Bandung.",
+        "kategori": "Kota",
+        "koordinat": {
+          "lat": -6.914744,
+          "lng": 107.609810
+        },
+        "harga_tiket": {
+          "dewasa": 20000,
+          "anak": 10000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Restoran", "Toko Souvenir"],
+        "foto_url": [
+          "https://example.com/bandung1.jpg",
+          "https://example.com/bandung2.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "nama": "Pendakian ke Gunung Rinjani",
+        "lokasi": "Lombok, Nusa Tenggara Barat",
+        "deskripsi": "An adventurous hiking trip to the summit of Mount Rinjani, offering stunning views and a challenging experience.",
+        "kategori": "Gunung",
+        "koordinat": {
+          "lat": -8.411630,
+          "lng": 116.457222
+        },
+        "harga_tiket": {
+          "dewasa": 150000,
+          "anak": 75000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Tempat Berkemah", "Pemandu"],
+        "foto_url": [
+          "https://example.com/rinjani1.jpg",
+          "https://example.com/rinjani2.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "nama": "Bersantai di Pantai Nusa Dua",
+        "lokasi": "Nusa Dua, Bali",
+        "deskripsi": "A relaxing day at the pristine beaches of Nusa Dua, perfect for swimming, sunbathing, and water sports.",
+        "kategori": "Pantai",
+        "koordinat": {
+          "lat": -8.807512,
+          "lng": 115.228891
+        },
+        "harga_tiket": {
+          "dewasa": 0,
+          "anak": 0
+        },
+        "fasilitas": ["Parkir", "Toilet", "Restoran", "Penyewaan Olahraga Air"],
+        "foto_url": [
+          "https://example.com/nusa-dua1.jpg",
+          "https://example.com/nusa-dua2.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "nama": "Perjalanan Budaya ke Ubud",
+        "lokasi": "Ubud, Bali",
+        "deskripsi": "A cultural trip to Ubud, the heart of Bali's arts and crafts scene, including visits to local markets and art galleries.",
+        "kategori": "Budaya",
+        "koordinat": {
+          "lat": -8.506939,
+          "lng": 115.262478
+        },
+        "harga_tiket": {
+          "dewasa": 10000,
+          "anak": 5000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Restoran", "Toko Seni"],
+        "foto_url": [
+          "https://example.com/ubud1.jpg",
+          "https://example.com/ubud2.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "nama": "Snorkeling di Kepulauan Gili",
+        "lokasi": "Kepulauan Gili, Nusa Tenggara Barat",
+        "deskripsi": "A day trip to the Gili Islands for snorkeling, enjoying crystal clear waters and vibrant marine life.",
+        "kategori": "Kepulauan",
+        "koordinat": {
+          "lat": -8.348598,
+          "lng": 116.046480
+        },
+        "harga_tiket": {
+          "dewasa": 50000,
+          "anak": 25000
+        },
+        "fasilitas": ["Penyewaan Perahu", "Toilet", "Restoran", "Penyewaan Peralatan Snorkeling"],
+        "foto_url": [
+          "https://example.com/gili1.jpg",
+          "https://example.com/gili2.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "nama": "Tur Kota Yogyakarta",
+        "lokasi": "Yogyakarta",
+        "deskripsi": "A comprehensive city tour of Yogyakarta, exploring its rich history, traditional markets, and iconic landmarks.",
+        "kategori": "Kota",
+        "koordinat": {
+          "lat": -7.797068,
+          "lng": 110.370529
+        },
+        "harga_tiket": {
+          "dewasa": 30000,
+          "anak": 15000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Pemandu", "Toko Souvenir"],
+        "foto_url": [
+          "https://example.com/yogyakarta1.jpg",
+          "https://example.com/yogyakarta2.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "nama": "Trekking di Bukit Lawang",
+        "lokasi": "Bukit Lawang, Sumatra Utara",
+        "deskripsi": "A nature trek through the jungles of Bukit Lawang, famous for its orangutan sanctuary and lush tropical environment.",
+        "kategori": "Alam",
+        "koordinat": {
+          "lat": 3.535718,
+          "lng": 98.153292
+        },
+        "harga_tiket": {
+          "dewasa": 60000,
+          "anak": 30000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Pemandu", "Penginapan"],
+        "foto_url": [
+          "https://example.com/bukit-lawang1.jpg",
+          "https://example.com/bukit-lawang2.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "nama": "Surfing di Batu Karas",
+        "lokasi": "Batu Karas, Jawa Barat",
+        "deskripsi": "A surfing trip to Batu Karas, known for its consistent waves and friendly surf community.",
+        "kategori": "Pantai",
+        "koordinat": {
+          "lat": -7.756928,
+          "lng": 108.489180
+        },
+        "harga_tiket": {
+          "dewasa": 0,
+          "anak": 0
+        },
+        "fasilitas": ["Parkir", "Toilet", "Penyewaan Papan Selancar", "Restoran"],
+        "foto_url": [
+          "https://example.com/batu-karas1.jpg",
+          "https://example.com/batu-karas2.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "nama": "Kunjungan ke Taman Nasional Tanjung Puting",
+        "lokasi": "Kalimantan Tengah",
+        "deskripsi": "A trip to Tanjung Puting National Park, home to a large population of orangutans and diverse wildlife.",
+        "kategori": "Taman Nasional",
+        "koordinat": {
+          "lat": -2.756441,
+          "lng": 111.751759
+        },
+        "harga_tiket": {
+          "dewasa": 75000,
+          "anak": 35000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Pemandu", "Penginapan"],
+        "foto_url": [
+          "https://example.com/tanjung-puting1.jpg",
+          "https://example.com/tanjung-puting2.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "nama": "Tur Kuliner di Medan",
+        "lokasi": "Medan, Sumatra Utara",
+        "deskripsi": "A culinary tour through Medan, tasting a variety of local dishes and exploring its vibrant food markets.",
+        "kategori": "Kota",
+        "koordinat": {
+          "lat": 3.595195,
+          "lng": 98.672222
+        },
+        "harga_tiket": {
+          "dewasa": 0,
+          "anak": 0
+        },
+        "fasilitas": ["Parkir", "Toilet", "Restoran", "Warung Makan"],
+        "foto_url": [
+          "https://example.com/medan1.jpg",
+          "https://example.com/medan2.jpg"
+        ]
+      }
+    ]
+  }
+  
