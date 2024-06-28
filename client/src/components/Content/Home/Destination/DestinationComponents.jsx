@@ -1,5 +1,6 @@
 import React from 'react';
 import FormComponent from '../Forms/HeroForms';
+import { TripGalleryRecommendation } from '../Gallery/TripRecGallery';
 
 const CustomCard = ({ category, title, description, buttonText, imgSrc, imgAlt, buttonType, size }) => (
     <div className={`relative rounded-xl overflow-hidden shadow-lg bg-gray-800 text-white ${size}`}>
@@ -88,9 +89,10 @@ const GalleryDestinations = () => {
                         </div>
                     </div>
                     <div className="flex">
-                        <div className="md:ml-20 w-full">
+                        <div className="md:ml-20 w-full md:px-2">
                             <h1 className="text-3xl font-light mb-4">Contact Us</h1>
                             <FormComponent />
+
                         </div>
                     </div>
                 </div>

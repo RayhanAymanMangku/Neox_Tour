@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+![Alt text](https://github.com/RayhanAymanMangku/Neox_Tour/blob/master/client/public/assets/Logo/Neox.png?raw=true)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Alt text](https://github.com/RayhanAymanMangku/Neox_Tour/blob/master/client/public/assets/Items/documentation.png?raw=true)
 
-## Available Scripts
+Welcome to Neox Tour, your premier digital destination for unforgettable e-tourism experiences. Neox Tour is a leading website designed to be a comprehensive tour guide for both local and international travelers. With a focus on easy access and comprehensive information, Neox Tour provides everything you need to plan and enjoy your journey.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+Key Features of Neox Tour:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Comprehensive Destination Information: Discover various exciting destinations from around the globe. We provide detailed information about popular places, hidden attractions, and activities you can enjoy at each destination.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Local Travel Guides: Get recommendations from locals about the best places to eat, stay, and activities to do. Our guides are designed to offer authentic and unforgettable experiences for travelers.
 
-### `npm test`
+- Multimedia Content: Enjoy high-quality photo and video galleries that provide a real glimpse of the destinations you choose. Our multimedia content is designed to inspire and help you make informed decisions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+**Client:** React, TailwindCSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+https://github.com/RayhanAymanMangku/Neox_Tour.git
+```
 
-### `npm run eject`
+Navigate to the Client Directory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  cd client
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run the Project
 
-## Learn More
+```bash
+  nodemon start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+or
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm run start
+```

@@ -112,7 +112,7 @@ export function TabsWithSearch() {
 
     return (
         <Tabs value="All">
-            <TabsHeader className="px-8 lg:px-24 bg-white z-10">
+            <TabsHeader className="p-4 lg:px-24 bg-white z-10">
                 {data.map(({ label, value }) => (
                     <Tab key={value} value={value}>
                         {label}

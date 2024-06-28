@@ -17,12 +17,12 @@ export const NavbarSticky = () => {
     return (
       <List className="flex flex-col lg:flex-row lg:gap-2 mt-4 mb-6 lg:mt-0 lg:mb-0 p-0">
         <li className="list-none">
-          <a href="#sec-2" className="px-3 py-2 font-extralight transition duration-300 hover:text-[#0ea5e9]">
+          <a href="/" className="px-3 py-2 font-extralight transition duration-300 hover:text-[#0ea5e9]">
             Home
           </a>
         </li>
         <li className="list-none">
-          <a href="#content" className="px-3 py-2 font-extralight  transition duration-300 hover:text-[#0ea5e9]">
+          <a href="/Destinations" className="px-3 py-2 font-extralight  transition duration-300 hover:text-[#0ea5e9]">
             Destinations
           </a>
         </li>
@@ -41,7 +41,7 @@ export const NavbarSticky = () => {
   }
 
   return (
-    <div className="sticky top-0 z-10 w-full items-center">
+    <div className="sticky top-0 z-20 w-full items-center">
       <Navbar className="shadow-none lg:px-24 lg:py-4 mx-auto max-w-full border-none">
         <div className="flex items-center justify-between w-full">
           <img src="/assets/Logo/Neox.png" className="w-36 h-12" alt="logo" />
