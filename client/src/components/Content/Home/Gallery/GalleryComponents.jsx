@@ -79,11 +79,11 @@ const GalleryComponents = () => {
                     </div>
                     <div className="grid grid-cols-3 items-baseline mx-auto h-fit mt-8">
 
-                        <div className="w-full h-60 rounded-t-3xl bg-gray-100 flex flex-col justify-center items-center">
+                        <div className="w-full h-60 rounded-t-3xl bg-gray-100 hover:bg-[#0ea5e9] transition-all duration-300 flex flex-col justify-center items-center">
                             <div className='w-12 h-12 rounded-full bg-white flex justify-center items-center mb-2'>
                                 <LocationOnIcon className='text-[#0ea5e9]' />
                             </div>
-                            <h3 className='text-3xl font-light text-black'>Find Your Trip</h3>
+                            <h3 className='text-3xl font-light text-black hover:text-white '>Find Your Trip</h3>
                         </div>
                         <div className="w-full h-60 rounded-t-3xl bg-[#0ea5e9] flex flex-col justify-center items-center">
                             <div className='w-12 h-12 rounded-full bg-white flex justify-center items-center mb-2'>
@@ -91,11 +91,11 @@ const GalleryComponents = () => {
                             </div>
                             <h3 className='text-3xl font-light text-white'>Book A Ticket</h3>
                         </div>
-                        <div className="w-full h-60 rounded-t-3xl bg-gray-100 flex flex-col justify-center items-center">
+                        <div className="w-full h-60 rounded-t-3xl bg-gray-100 hover:bg-[#0ea5e9] transition-all duration-300 flex flex-col justify-center items-center">
                             <div className='w-12 h-12 rounded-full bg-white flex justify-center items-center mb-2'>
                                 <PaymentIcon className='text-[#0ea5e9]' />
                             </div>
-                            <h3 className='text-3xl font-light text-black'>Pay & Start Trip</h3>
+                            <h3 className='text-3xl font-light text-black hover:text-white '>Pay & Start Trip</h3>
                         </div>
 
 
