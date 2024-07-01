@@ -5,7 +5,7 @@ import { HomePage } from "./pages/LandingPage/page";
 import { DestinationPage } from "./pages/DestinationPage/page";
 import { Navigate } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
     <ThemeProvider>
       <Router>
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+
