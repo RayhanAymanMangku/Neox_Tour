@@ -1,11 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ThemeProvider } from "@material-tailwind/react";
+// import { ThemeProvider } from "@material-tailwind/react";
 import { HomePage } from "./pages/LandingPage/page";
-import { DestinationPage } from "./pages/DestinationPage/page";
+import DestinationPage from "./pages/DestinationPage/page";
 import { Navigate } from "react-router-dom";
+import { ThemeProvider } from "@material-tailwind/react";
 
 export default function App() {
+
   return (
     <ThemeProvider>
       <Router>

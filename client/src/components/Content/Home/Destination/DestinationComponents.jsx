@@ -1,6 +1,5 @@
 import React from 'react';
 import FormComponent from '../Forms/HeroForms';
-import { TripGalleryRecommendation } from '../Gallery/TripRecGallery';
 
 const CustomCard = ({ category, title, description, buttonText, imgSrc, imgAlt, buttonType, size }) => (
     <div className={`relative rounded-xl overflow-hidden shadow-lg bg-gray-800 text-white ${size}`}>

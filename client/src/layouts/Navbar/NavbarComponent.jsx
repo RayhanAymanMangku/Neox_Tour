@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { List } from "@material-tailwind/react";
+import { Collapse, List } from "@material-tailwind/react";
 import { IconButton, MobileNav, Navbar } from "@material-tailwind/react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
@@ -97,7 +97,7 @@ export const NavbarSticky = () => {
           </IconButton>
         </div>
 
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           <NavList />
           <div className="flex flex-col gap-2 mt-4">
             <button className="px-4 py-2 bg-[#0ea5e9] rounded-full text-white font-extralight hover:shadow-md">
@@ -107,7 +107,7 @@ export const NavbarSticky = () => {
               <ArrowForwardIcon className="text-white" />
             </button>
           </div>
-        </MobileNav>
+        </Collapse>
       </Navbar>
     </div>
   );
