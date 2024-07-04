@@ -1,0 +1,205 @@
+{
+    "tours": [
+      {
+        "id": 1,
+        "nama": "Taman Mini Indonesia Indah",
+        "lokasi": "Jakarta Timur, DKI Jakarta",
+        "deskripsi": "Taman Mini Indonesia Indah adalah taman wisata bertema budaya yang menampilkan miniatur dari 33 provinsi di Indonesia.",
+        "kategori": "Taman Budaya",
+        "koordinat": {
+          "lat": -6.302486,
+          "lng": 106.895498
+        },
+        "harga_tiket": {
+          "dewasa": 25000,
+          "anak": 15000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Mushola", "Restoran"],
+        "foto_url": [
+          "https://example.com/taman-mini1.jpg",
+          "https://example.com/taman-mini2.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "nama": "Pantai Kuta",
+        "lokasi": "Kuta, Bali",
+        "deskripsi": "Pantai Kuta adalah pantai terkenal di Bali yang menjadi tujuan wisata favorit untuk berselancar dan menikmati matahari terbenam.",
+        "kategori": "Pantai",
+        "koordinat": {
+          "lat": -8.717719,
+          "lng": 115.168176
+        },
+        "harga_tiket": {
+          "dewasa": 0,
+          "anak": 0
+        },
+        "fasilitas": ["Parkir", "Toilet", "Restoran", "Penyewaan Surfing"],
+        "foto_url": [
+          "https://example.com/pantai-kuta1.jpg",
+          "https://example.com/pantai-kuta2.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "nama": "Candi Borobudur",
+        "lokasi": "Magelang, Jawa Tengah",
+        "deskripsi": "Candi Borobudur adalah candi Buddha terbesar di dunia yang merupakan salah satu situs Warisan Dunia UNESCO.",
+        "kategori": "Sejarah dan Budaya",
+        "koordinat": {
+          "lat": -7.607874,
+          "lng": 110.203751
+        },
+        "harga_tiket": {
+          "dewasa": 50000,
+          "anak": 25000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Restoran", "Pusat Informasi"],
+        "foto_url": [
+          "https://example.com/candi-borobudur1.jpg",
+          "https://example.com/candi-borobudur2.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "nama": "Gunung Bromo",
+        "lokasi": "Probolinggo, Jawa Timur",
+        "deskripsi": "Gunung Bromo adalah gunung berapi aktif yang terkenal dengan pemandangan matahari terbitnya yang memukau.",
+        "kategori": "Pegunungan",
+        "koordinat": {
+          "lat": -7.942493,
+          "lng": 112.953013
+        },
+        "harga_tiket": {
+          "dewasa": 30000,
+          "anak": 15000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Penyewaan Jeep", "Warung"],
+        "foto_url": [
+          "https://example.com/gunung-bromo1.jpg",
+          "https://example.com/gunung-bromo2.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "nama": "Raja Ampat",
+        "lokasi": "Papua Barat",
+        "deskripsi": "Raja Ampat adalah kepulauan yang terkenal dengan keindahan bawah lautnya yang mempesona.",
+        "kategori": "Kepulauan",
+        "koordinat": {
+          "lat": -0.234573,
+          "lng": 130.517383
+        },
+        "harga_tiket": {
+          "dewasa": 500000,
+          "anak": 250000
+        },
+        "fasilitas": ["Penginapan", "Restoran", "Penyewaan Peralatan Menyelam", "Pemandu Wisata"],
+        "foto_url": [
+          "https://example.com/raja-ampat1.jpg",
+          "https://example.com/raja-ampat2.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "nama": "Danau Toba",
+        "lokasi": "Sumatra Utara",
+        "deskripsi": "Danau Toba adalah danau vulkanik terbesar di dunia dengan pulau Samosir di tengahnya.",
+        "kategori": "Danau",
+        "koordinat": {
+          "lat": 2.693983,
+          "lng": 98.875092
+        },
+        "harga_tiket": {
+          "dewasa": 20000,
+          "anak": 10000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Penginapan", "Restoran"],
+        "foto_url": [
+          "https://example.com/danau-toba1.jpg",
+          "https://example.com/danau-toba2.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "nama": "Pulau Komodo",
+        "lokasi": "Nusa Tenggara Timur",
+        "deskripsi": "Pulau Komodo adalah habitat alami komodo, reptil terbesar di dunia, dan bagian dari Taman Nasional Komodo.",
+        "kategori": "Kepulauan",
+        "koordinat": {
+          "lat": -8.554372,
+          "lng": 119.498152
+        },
+        "harga_tiket": {
+          "dewasa": 150000,
+          "anak": 75000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Pemandu Wisata", "Penginapan"],
+        "foto_url": [
+          "https://example.com/pulau-komodo1.jpg",
+          "https://example.com/pulau-komodo2.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "nama": "Tana Toraja",
+        "lokasi": "Sulawesi Selatan",
+        "deskripsi": "Tana Toraja terkenal dengan adat istiadat dan ritual pemakamannya yang unik serta rumah adat Tongkonan.",
+        "kategori": "Budaya",
+        "koordinat": {
+          "lat": -3.063720,
+          "lng": 119.833923
+        },
+        "harga_tiket": {
+          "dewasa": 30000,
+          "anak": 15000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Pusat Informasi", "Penginapan"],
+        "foto_url": [
+          "https://example.com/tana-toraja1.jpg",
+          "https://example.com/tana-toraja2.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "nama": "Taman Nasional Ujung Kulon",
+        "lokasi": "Banten",
+        "deskripsi": "Taman Nasional Ujung Kulon adalah rumah bagi badak Jawa yang terancam punah serta beragam flora dan fauna lainnya.",
+        "kategori": "Taman Nasional",
+        "koordinat": {
+          "lat": -6.756778,
+          "lng": 105.372845
+        },
+        "harga_tiket": {
+          "dewasa": 50000,
+          "anak": 25000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Pemandu Wisata", "Penginapan"],
+        "foto_url": [
+          "https://example.com/ujung-kulon1.jpg",
+          "https://example.com/ujung-kulon2.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "nama": "Pantai Parangtritis",
+        "lokasi": "Yogyakarta",
+        "deskripsi": "Pantai Parangtritis adalah pantai populer di Yogyakarta yang terkenal dengan ombaknya yang besar dan suasana mistisnya.",
+        "kategori": "Pantai",
+        "koordinat": {
+          "lat": -8.025624,
+          "lng": 110.308687
+        },
+        "harga_tiket": {
+          "dewasa": 10000,
+          "anak": 5000
+        },
+        "fasilitas": ["Parkir", "Toilet", "Warung", "Penyewaan ATV"],
+        "foto_url": [
+          "https://example.com/pantai-parangtritis1.jpg",
+          "https://example.com/pantai-parangtritis2.jpg"
+        ]
+      }
+    ]
+  }
+  
